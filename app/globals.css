@@ -1,8 +1,9 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@tailwind base;       /* Resets and base styles */
+@tailwind components; /* Predefined components (e.g., buttons) */
+@tailwind utilities;  /* Utility classes (e.g., margin, padding) */
+
 @layer base {
-body {
-  @apply font-primary bg-primary text-white leading-loose;
+  body {
+    @apply font-primary bg-primary text-white leading-loose;
   }
 }
